@@ -1,0 +1,9 @@
+{
+    "routes": [
+      {
+        "route": "/privacy",
+        "rewrite": "/privacy_files/privacy.html"
+      }
+    ]
+  }
+
