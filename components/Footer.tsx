@@ -100,8 +100,8 @@ export default function Footer({
             <div>
               <h4 className="text-[18px] font-bold leading-[24px] text-white mb-4">Policy</h4>
               <ul className="space-y-1 text-[16px] leading-[40px] text-white" style={{ letterSpacing: '-0.015em' }}>
-                <li><Link href="/terms-of-use" className="hover:opacity-80 transition-opacity">Terms of Use</Link></li>
-                <li><Link href="/privacy-policy" className="hover:opacity-80 transition-opacity">Privacy Policy</Link></li>
+                <li><Link href="/terms" className="hover:opacity-80 transition-opacity">Terms of Use</Link></li>
+                <li><Link href="/privacy" className="hover:opacity-80 transition-opacity">Privacy Policy</Link></li>
               </ul>
             </div>
 
