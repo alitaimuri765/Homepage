@@ -1,0 +1,11 @@
+<svg preserveAspectRatio="none" width="100%" height="100%" overflow="visible" style="display: block;" viewBox="0 0 153 153" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Paly Button">
+<g id="Background">
+<circle cx="76.5" cy="76.5" r="76.5" fill="var(--fill-0, white)" fill-opacity="0.08"/>
+<circle cx="76.5" cy="76.5" r="76.35" stroke="var(--stroke-0, white)" stroke-opacity="0.42" stroke-width="0.3"/>
+</g>
+<circle id="Background_2" cx="76.5" cy="76.5" r="61.35" fill="var(--fill-0, white)" fill-opacity="0.17" stroke="var(--stroke-0, white)" stroke-width="0.3"/>
+<circle id="Background_3" cx="76.5" cy="76.5" r="46.5" fill="var(--fill-0, white)"/>
+<path id="Pattern" d="M73.0194 84.7184L81.6309 77.4467C81.7696 77.3295 81.881 77.1841 81.9574 77.0205C82.0337 76.8569 82.0732 76.679 82.0732 76.4989C82.0732 76.3188 82.0337 76.1409 81.9574 75.9773C81.881 75.8137 81.7696 75.6683 81.6309 75.5511L73.0194 68.2794C72.1974 67.5855 70.9277 68.1608 70.9277 69.2273V83.7726C70.9277 84.8391 72.1974 85.4144 73.0194 84.7184V84.7184Z" fill="var(--fill-0, #3B3A5D)"/>
+</g>
+</svg>

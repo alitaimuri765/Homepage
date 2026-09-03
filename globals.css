@@ -1,0 +1,74 @@
+@import "tailwindcss";
+
+@theme {
+  --font-poppins: var(--font-poppins), sans-serif;
+
+  --color-purple: #8a07f1;
+  --color-purple-dark: #6b05c0;
+  --color-green-accent: #339657;
+
+  --radius-pill: 87px;
+
+  --background-image-gradient-primary: linear-gradient(98.63deg, #000000 -11.39%, #2B2B2B 49.52%, #8A07F1 155.77%, #CBCBCB 217.3%);
+}
+
+:root {
+  --gradient-primary: linear-gradient(98.63deg, #000000 -11.39%, #2B2B2B 49.52%, #8A07F1 155.77%, #CBCBCB 217.3%);
+  --color-purple: #8a07f1;
+  --color-green: #339657;
+}
+
+body {
+  font-family: var(--font-poppins), sans-serif;
+}
+
+.gradient-bg {
+  background: var(--gradient-primary);
+}
+
+.gradient-text {
+  background: var(--gradient-primary);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.bg-gradient-primary {
+  background: linear-gradient(98.63deg, #000000 -11.39%, #2B2B2B 49.52%, #8A07F1 155.77%, #CBCBCB 217.3%);
+}
+
+.text-purple {
+  color: #8a07f1;
+}
+
+.bg-purple {
+  background-color: #8a07f1;
+}
+
+.bg-purple\/20 {
+  background-color: rgb(138 7 241 / 0.2);
+}
+
+.text-green-accent {
+  color: #339657;
+}
+
+.bg-green-accent {
+  background-color: #339657;
+}
+
+.rounded-pill {
+  border-radius: 87px;
+}
+
+.hover\:border-purple:hover {
+  border-color: #8a07f1;
+}
+
+.hover\:text-purple:hover {
+  color: #8a07f1;
+}
+
+.w-16.h-1.bg-gradient-primary {
+  background: linear-gradient(98.63deg, #000000 -11.39%, #2B2B2B 49.52%, #8A07F1 155.77%, #CBCBCB 217.3%);
+}
