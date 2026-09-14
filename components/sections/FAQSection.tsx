@@ -11,9 +11,17 @@ const defaultFaqs = [
 
 interface Props {
   faqs?: Array<{ question: string; answer: string }>
+  doctorImage?: string
+  doctorName?: string
+  doctorTitle?: string
 }
 
-export default function FAQSection({ faqs = defaultFaqs }: Props) {
+export default function FAQSection({
+  faqs = defaultFaqs,
+  doctorImage = '/images/ai-faq.png',
+  doctorName = 'Dr. Faryal Raza',
+  doctorTitle = 'Medical Advisor',
+}: Props) {
   const [open, setOpen] = useState<number | null>(null)
 
   return (
@@ -40,11 +48,17 @@ export default function FAQSection({ faqs = defaultFaqs }: Props) {
               style={{ width: 'min(374px, 80%)', height: 'min(500px, calc(100% - 16px))', left: 16, top: 0 }}
             >
               <Image
-                src="/images/ai-faq.png"
-                alt="Health professional"
+                src={doctorImage}
+                alt={doctorName}
                 fill
-                className="object-contain object-top"
+                className="object-cover object-top"
               />
+              {doctorName && (
+                <div className="absolute bottom-0 left-0 right-0 px-4 py-3" style={{ background: 'linear-gradient(to top, rgba(0,0,0,0.75) 0%, transparent 100%)' }}>
+                  <p className="text-white font-bold text-[15px] leading-tight">{doctorName}</p>
+                  <p className="text-white/70 text-[12px]">{doctorTitle}</p>
+                </div>
+              )}
             </div>
           </div>
 

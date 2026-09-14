@@ -15,6 +15,7 @@ export default function HomePage() {
       <Hero
         title="Your Digital Health Companion!"
         subtitle="Take control of your health. Start your journey today!"
+        bgImage="/images/hero-home-bg.jpeg"
       />
       <VideoSection />
       <ValuePropSection />

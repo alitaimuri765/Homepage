@@ -5,6 +5,7 @@ interface HeroProps {
   title?: string
   subtitle?: string
   bgImage?: string
+  bgPosition?: string
   hideCta?: boolean
 }
 
@@ -12,6 +13,7 @@ export default function Hero({
   title = 'Our team helps you get your life back on track.',
   subtitle = 'Our team of highly trained professionals uses the latest healing technologies to restore you to pain-free health quickly and easily. We thoroughly evaluate & treat all of the contributing root factors related to your issue. Includes, but is not limited to, your work and home stressors.',
   bgImage,
+  bgPosition = 'center center',
   hideCta = false,
 }: HeroProps) {
   return (
@@ -21,7 +23,16 @@ export default function Hero({
     >
       {bgImage && (
         <>
-          <Image src={bgImage} alt="" fill className="object-cover" style={{ zIndex: 0 }} />
+          <div
+            className="absolute inset-0"
+            style={{
+              backgroundImage: `url(${bgImage})`,
+              backgroundSize: 'cover',
+              backgroundPosition: bgPosition,
+              backgroundRepeat: 'no-repeat',
+              zIndex: 0,
+            }}
+          />
           <div
             className="absolute inset-0"
             style={{

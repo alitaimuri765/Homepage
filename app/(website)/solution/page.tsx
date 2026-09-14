@@ -3,6 +3,7 @@ import Hero from '@/components/sections/Hero'
 import StepsSection from '@/components/sections/StepsSection'
 import SolutionFeatureCards from '@/components/sections/SolutionFeatureCards'
 import TestimonialDark from '@/components/sections/TestimonialDark'
+import FAQSection from '@/components/sections/FAQSection'
 import Footer from '@/components/Footer'
 
 export const metadata = { title: 'Solution — Health.IQ' }
@@ -119,6 +120,11 @@ export default function SolutionPage() {
         quote="Health.IQ gave me the insights I needed to finally take my health seriously."
         name="Kwame A."
         title="Health.IQ User, Nairobi"
+      />
+      <FAQSection
+        doctorImage="/images/ahmed-suit.png"
+        doctorName="Ahmed Raza"
+        doctorTitle="CEO & Co-Founder"
       />
       <Footer />
     </main>

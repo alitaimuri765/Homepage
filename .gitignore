@@ -1,9 +1,22 @@
-node_modules/
+# Dependencies
+node_modules/*
+node_modules
+
+# Next.js
 .next/
+
+# Environment
 .env
 .env.local
 .env.*.local
+
+# Build
 dist/
+
+# OS
 .DS_Store
 Thumbs.db
+
+# Logs
 *.log
+

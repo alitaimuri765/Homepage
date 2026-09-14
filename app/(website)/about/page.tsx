@@ -2,6 +2,7 @@ import Image from 'next/image'
 import Hero from '@/components/sections/Hero'
 import Footer from '@/components/Footer'
 import AboutSlideshow from '@/components/sections/AboutSlideshow'
+import FAQSection from '@/components/sections/FAQSection'
 
 export const metadata = { title: 'About Us — Health.IQ' }
 
@@ -212,6 +213,11 @@ export default function AboutPage() {
         </div>
       </section>
 
+      <FAQSection
+        doctorImage="/images/ai-about-faq.png"
+        doctorName=""
+        doctorTitle=""
+      />
       <Footer />
     </main>
   )

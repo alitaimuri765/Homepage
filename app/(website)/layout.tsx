@@ -15,8 +15,8 @@ const inriaSerif = Inria_Serif({
 })
 
 export const metadata: Metadata = {
-  title: 'Health.IQ — Intelligent Operating Room Intelligence',
-  description: 'Empowering people everywhere to live healthier lives.',
+  title: 'Health.IQ — Your AI-Powered Health Companion',
+  description: 'Take control of your health with AI-powered insights, personalized tracking, and smart recommendations — available anywhere in the world.',
 }
 
 export default function WebsiteLayout({ children }: { children: React.ReactNode }) {

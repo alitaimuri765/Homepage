@@ -33,10 +33,15 @@ export default function SuperchargeRight({
             >
               <Image
                 src="/images/ai-man-supercharge.png"
-                alt="Health professional"
+                alt="Dr. Mohamed Raza"
                 fill
                 className="object-cover object-top"
               />
+              {/* Name label */}
+              <div className="absolute bottom-0 left-0 right-0 px-4 py-3" style={{ background: 'linear-gradient(to top, rgba(0,0,0,0.75) 0%, transparent 100%)' }}>
+                <p className="text-white font-bold text-[15px] leading-tight">Dr. Mohamed Raza</p>
+                <p className="text-white/70 text-[12px]">Chief Medical Officer</p>
+              </div>
             </div>
           </div>
 
